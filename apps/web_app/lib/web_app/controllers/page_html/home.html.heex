@@ -1,4 +1,5 @@
-<!-- <.flash_group flash={@flash} /> -->
-<div>
-  <.card posts={@posts} />
+<div class="flex flex-wrap gap-4">
+  <%= for post <- @posts do %>
+    <.card post={post} />
+  <% end %>
 </div>

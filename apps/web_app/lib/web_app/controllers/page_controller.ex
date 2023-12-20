@@ -6,6 +6,8 @@ defmodule WebApp.PageController do
     # The home page is often custom made,
     # so skip the default app layout.
     posts = Persistence.Repo.all()
+
+    IO.inspect(posts)
     render(conn, :home, posts: posts)
   end
 
