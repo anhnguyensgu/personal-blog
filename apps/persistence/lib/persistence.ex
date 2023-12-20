@@ -1,4 +1,4 @@
-defmodule Posts do
+defmodule Persistence do
   @moduledoc """
   Documentation for `Posts`.
   """
@@ -8,7 +8,7 @@ defmodule Posts do
 
   ## Examples
 
-      iex> Posts.hello()
+      iex> Persistence.hello()
       :world
 
   """
