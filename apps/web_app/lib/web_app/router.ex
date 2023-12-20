@@ -19,6 +19,8 @@ defmodule WebApp.Router do
 
     get "/", PageController, :home
     get "/about", PageController, :about
+    get "/posts", PageController, :home
+    get "/posts/:id", PageController, :post
   end
 
   # Other scopes may use custom stacks.
